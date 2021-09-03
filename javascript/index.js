@@ -1,15 +1,15 @@
 const burBtn = document.getElementById('burBtn');
-const closeBtn = document.getElementById('closeBtn');
-const mobileNav = document.getElementById('mobileNav');
+const butClose = document.getElementById('butClose');
+const navMob = document.getElementById('navMob');
 
 burBtn.addEventListener('click', function () {
   burBtn.classList.add('display-none');
-  closeBtn.classList.remove('display-none');
-  mobileNav.classList.remove('display-none');
+  butClose.classList.remove('display-none');
+  navMob.classList.remove('display-none');
 });
 
-closeBtn.addEventListener('click', function () {
+butClose.addEventListener('click', function () {
   burBtn.classList.remove('display-none');
-  closeBtn.classList.add('display-none');
-  mobileNav.classList.add('display-none');
+  butClose.classList.add('display-none');
+  navMob.classList.add('display-none');
 });
