@@ -11,6 +11,7 @@
   position: absolute;
   top: 1rem;
   right: 1rem;
+  color: white;
 }
 
 .nav_mob {
@@ -29,6 +30,10 @@
 
 .display-none {
   display: none;
+}
+
+#burBtn {
+  color: white;
 }
 
 .links-mob {
