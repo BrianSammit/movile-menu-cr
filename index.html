@@ -9,9 +9,19 @@
     <title>Aziz Mejri - Portfolio</title>
   </head>
   <body>
+    <div class="nav_mob" id="navMob">
+      <button id="butClose" type="button" class="menu-bars">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="links-mob">
+        <a class="link-mo" href="#projects">Portoflio</a>
+        <a class="link-mo" href="#about-me">About</a>
+        <a class="link-mo" href="#contact">Contact</a>
+      </div>
+    </div>
     <header>
       <h1 id="logo">Aziz Mejri</h1>
-      <button type="button" class="menu-bars">
+      <button id="burBtn" type="button" class="menu-bars">
         <i class="fas fa-bars"></i>
       </button>
       <nav id="desktop-nav">
@@ -19,9 +29,7 @@
           <li><a class="nav-link" href="#projects">Portoflio</a></li>
           <li><a class="nav-link" href="#about-me">About</a></li>
           <li>
-            <a class="nav-link" href="#contact"
-              >Contact <i class="far fa-envelope"></i
-            ></a>
+            <a class="nav-link" href="#contact">Contact <i class="far fa-envelope"></i></a>
           </li>
         </ul>
       </nav>
@@ -29,16 +37,8 @@
     <main>
       <div id="intro">
         <div class="intro-icon">
-          <img
-            class="mobile-icon"
-            src="./media/svg/icon.svg"
-            alt="Icon for the side"
-          />
-          <img
-            class="desktop-icon"
-            src="./media/svg/desktop-icon.svg"
-            alt="Icon for the side"
-          />
+          <img class="mobile-icon" src="./media/svg/icon.svg" alt="Icon for the side" />
+          <img class="desktop-icon" src="./media/svg/desktop-icon.svg" alt="Icon for the side" />
         </div>
         <h2 class="intro-greet">
           Hey There.
@@ -49,8 +49,7 @@
         <p class="intro-text">
           I can help you build a product, feature or website <br />
           Look through some of my work and experience! <br />
-          If you like what you see and have a project you need coded, don’t
-          hestiate to contact me.
+          If you like what you see and have a project you need coded, don’t hestiate to contact me.
         </p>
         <div class="social top-social">
           <a
@@ -59,11 +58,7 @@
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img
-              class="social-icon"
-              src="./media/svg/github.svg"
-              alt="GitHub Icon"
-            />
+            <img class="social-icon" src="./media/svg/github.svg" alt="GitHub Icon" />
           </a>
           <a
             class="social-link"
@@ -71,11 +66,7 @@
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img
-              class="social-icon"
-              src="./media/svg/linkedin.svg"
-              alt="LinkedIn Icon"
-            />
+            <img class="social-icon" src="./media/svg/linkedin.svg" alt="LinkedIn Icon" />
           </a>
           <a
             class="social-link"
@@ -83,11 +74,7 @@
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img
-              class="social-icon"
-              src="./media/svg/angel.svg"
-              alt="AngelList Icon"
-            />
+            <img class="social-icon" src="./media/svg/angel.svg" alt="AngelList Icon" />
           </a>
           <a
             class="social-link"
@@ -95,11 +82,7 @@
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img
-              class="social-icon"
-              src="./media/svg/twitter.svg"
-              alt="Twitter Icon"
-            />
+            <img class="social-icon" src="./media/svg/twitter.svg" alt="Twitter Icon" />
           </a>
           <a
             class="social-link"
@@ -107,11 +90,7 @@
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img
-              class="social-icon"
-              src="./media/svg/medium.svg"
-              alt="Medium Icon"
-            />
+            <img class="social-icon" src="./media/svg/medium.svg" alt="Medium Icon" />
           </a>
         </div>
       </div>
@@ -119,11 +98,7 @@
         <h2>My Recent Work</h2>
         <hr />
         <div class="first-card">
-          <img
-            src="./media/png/ubrunning.png"
-            alt="UB-Running Screenshot"
-            class="first-card-img"
-          />
+          <img src="./media/png/ubrunning.png" alt="UB-Running Screenshot" class="first-card-img" />
           <div class="first-card-description">
             <h2>UB Running</h2>
             <p class="description blue-color">
@@ -152,10 +127,9 @@
             <div class="card-description">
               <h2>GTime</h2>
               <p class="white-description">
-                This is the front-end of a website that tracks your game stats,
-                so you can see how much you are improving. Built with
-                JavaScript. (The link to the back-end API can be found in the
-                GitHub repo)
+                This is the front-end of a website that tracks your game stats, so you can see how
+                much you are improving. Built with JavaScript. (The link to the back-end API can be
+                found in the GitHub repo)
               </p>
               <ul class="project-stacks card-stacks">
                 <li>HTML</li>
@@ -180,9 +154,8 @@
             <div class="card-description">
               <h2>Weather App</h2>
               <p class="white-description">
-                This is a responsive weather app made with JavaScript that
-                displays the temperature, humidity and timezone for cities
-                around the world.
+                This is a responsive weather app made with JavaScript that displays the temperature,
+                humidity and timezone for cities around the world.
               </p>
               <ul class="project-stacks card-stacks">
                 <li>HTML</li>
@@ -225,9 +198,7 @@
             <div class="background-div"></div>
             <div class="card-description">
               <h2>Katchy</h2>
-              <p class="white-description">
-                This is a website for recipes made with Ruby on Rails
-              </p>
+              <p class="white-description">This is a website for recipes made with Ruby on Rails</p>
               <ul class="project-stacks card-stacks">
                 <li>Ruby</li>
                 <li>Ruby on Rails</li>
@@ -251,15 +222,12 @@
         <section class="about-me-section">
           <h2>About me</h2>
           <p class="about-me-text">
-            I am a skilled Full-Stack Web Developer who loves making pages with
-            beautiful UI. I have studied at Microverse, and I am experienced in
-            remote work.
+            I am a skilled Full-Stack Web Developer who loves making pages with beautiful UI. I have
+            studied at Microverse, and I am experienced in remote work.
             <br />
-            I've also been a good helping hand to a lot of developers in
-            different communities!
+            I've also been a good helping hand to a lot of developers in different communities!
             <br />
-            if you'd like to get in contact about potential job opportunities,
-            please reach out!
+            if you'd like to get in contact about potential job opportunities, please reach out!
           </p>
           <a
             href="https://docs.google.com/document/d/1lYq0Kb50TujzJzDWGobIchRI17JMnAiZMF9OBQgNU68/edit?usp=sharing"
@@ -269,16 +237,8 @@
           >
             Get my resume
           </a>
-          <img
-            class="about-me-icon mobile-icon"
-            src="./media/svg/icon-2.svg"
-            alt="Icon"
-          />
-          <img
-            class="about-me-icon desktop-icon"
-            src="./media/svg/desktop-icon-2.svg"
-            alt="Icon"
-          />
+          <img class="about-me-icon mobile-icon" src="./media/svg/icon-2.svg" alt="Icon" />
+          <img class="about-me-icon desktop-icon" src="./media/svg/desktop-icon-2.svg" alt="Icon" />
         </section>
         <hr />
         <div class="stacks">
@@ -329,8 +289,8 @@
       </div>
       <div id="contact">
         <h2>
-          I'm always interested in hearing about new projects, so if you'd like
-          to chat please get in touch.
+          I'm always interested in hearing about new projects, so if you'd like to chat please get
+          in touch.
         </h2>
         <form action="https://formspree.io/f/mwkakrqj" method="POST">
           <input
@@ -359,13 +319,7 @@
               required
             />
           </div>
-          <input
-            type="email"
-            id="email"
-            name="_replyto"
-            placeholder="Email address"
-            required
-          />
+          <input type="email" id="email" name="_replyto" placeholder="Email address" required />
           <textarea
             name="message"
             placeholder="Enter text here"
@@ -383,11 +337,7 @@
         target="_blank"
         rel="noreferrer noopener"
       >
-        <img
-          class="social-icon"
-          src="./media/svg/github.svg"
-          alt="GitHub Icon"
-        />
+        <img class="social-icon" src="./media/svg/github.svg" alt="GitHub Icon" />
       </a>
       <a
         class="social-link"
@@ -395,11 +345,7 @@
         target="_blank"
         rel="noreferrer noopener"
       >
-        <img
-          class="social-icon"
-          src="./media/svg/linkedin.svg"
-          alt="LinkedIn Icon"
-        />
+        <img class="social-icon" src="./media/svg/linkedin.svg" alt="LinkedIn Icon" />
       </a>
       <a
         class="social-link"
@@ -407,11 +353,7 @@
         target="_blank"
         rel="noreferrer noopener"
       >
-        <img
-          class="social-icon"
-          src="./media/svg/angel.svg"
-          alt="AngelList Icon"
-        />
+        <img class="social-icon" src="./media/svg/angel.svg" alt="AngelList Icon" />
       </a>
       <a
         class="social-link"
@@ -419,11 +361,7 @@
         target="_blank"
         rel="noreferrer noopener"
       >
-        <img
-          class="social-icon"
-          src="./media/svg/twitter.svg"
-          alt="Twitter Icon"
-        />
+        <img class="social-icon" src="./media/svg/twitter.svg" alt="Twitter Icon" />
       </a>
       <a
         class="social-link"
@@ -431,16 +369,10 @@
         target="_blank"
         rel="noreferrer noopener"
       >
-        <img
-          class="social-icon"
-          src="./media/svg/medium.svg"
-          alt="Medium Icon"
-        />
+        <img class="social-icon" src="./media/svg/medium.svg" alt="Medium Icon" />
       </a>
     </footer>
-    <script
-      src="https://kit.fontawesome.com/e966a3bd22.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/e966a3bd22.js" crossorigin="anonymous"></script>
+    <script src="./javascript/index.js"></script>
   </body>
 </html>
