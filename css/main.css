@@ -461,6 +461,10 @@ textarea {
     display: none;
   }
 
+  #burBtn {
+    display: none;
+  }
+
   .desktop-icon {
     display: block;
     height: 50%;
